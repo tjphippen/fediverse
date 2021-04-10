@@ -3,6 +3,13 @@
 Read:
 https://sopa.tulane.edu/blog/decentralized-social-networks
 
+## Description
+
+The goal of this project is to provide a Dockerized Ubuntu/CentOS image that Creators can easily setup. This will automatically install & connect to multiple distributed content networks listed below, then provide an Admin UI/CMS running on port 80(Like Wordpress). The Creator may add plugins/modules for payments or subscriptions, themes, etc. 
+
+All content will be stored/accessed via distributed networks. 
+
+
 ## Ref
 
 Matrix: https://matrix.org/docs/develop | https://github.com/matrix-org/dendrite
