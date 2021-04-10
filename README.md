@@ -1,5 +1,7 @@
 # fediverse
 
+Read:
+https://sopa.tulane.edu/blog/decentralized-social-networks
 
 #Ref
 
