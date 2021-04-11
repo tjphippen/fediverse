@@ -13,7 +13,7 @@ All content will be stored/accessed via distributed networks.
 ----
 
 ## Networks
-There are multiple decentralized content delivery networks. The following is a few to look into & that we may or may not end up using. Please give feedback/suggestions if there are alternatives that would better serve the goald of this application. A Node.js/npm package will be created as a wrapper to interact with the various network APIs running on the Creator's instance
+There are multiple decentralized content delivery networks. The following is a few to look into & that we may or may not end up using. Please give feedback/suggestions if there are alternatives that would better serve the goals of this project. A Node.js/npm package will be created as a wrapper to interact with the various network APIs running on the Creator's instance
 
 Matrix: https://matrix.org/docs/develop | https://github.com/matrix-org/dendrite
 
@@ -24,6 +24,8 @@ Mastdon: https://github.com/tootsuite/mastodon
 Peertube: https://github.com/Chocobozzz/PeerTube | https://docs.joinpeertube.org/install-docker
 
 LBRY: https://lbry.com/
+
+##### More Options TBD..
 
 ----
 
@@ -40,7 +42,7 @@ LBRY: https://lbry.com/
 ## Install/Setup Options
 Getting started using the Fediverse is VERY simple & straight forward. Creators can use our One-Click/Marketplace app on popular hosts like DigitalOcean, Heroku & Linods to automatically install everything they need. Advanced users may install with Docker (e.g. `docker pull fediverse:10.04`) or simply by pulling this repo & running `docker-compose up -d` 
 
-Anyone who has ever used applications like cPanel & the included One-Click Apps like WordPress will be comfortable with the process. We will provide easy to follow guides, video tutorials, community support/forum & for Creators wanting hands on support or managed services we may provide those services for a fee. (any/all profits will go towards philanthropy & supporting the continued development of this project.
+Anyone who has ever used applications like cPanel & the included One-Click Apps like WordPress will be comfortable with the process. We will provide easy to follow guides, video tutorials, community support/forum & for those who want more hands on support or managed hosting we may provide those services in the future for a fee. (any/all profits should go into philanthropy & supporting the continued development of this project.
 
 1. Digital Ocean
     - Marketplace App https://marketplace.digitalocean.com/ | https://marketplace.digitalocean.com/vendors/getting-started-as-a-digitalocean-marketplace-vendor | https://github.com/digitalocean/marketplace-partners | 
@@ -56,13 +58,13 @@ https://docs.digitalocean.com/products/app-platform/how-to/add-deploy-do-button/
     - Custom ISO/img
     - Github repo to pull & run `docker-compose up` to start services.
 
-## Creator Setup (Digital Ocean option #1) 
+## Possible Creator Setup (Digital Ocean option #1) 
 
 1. Goto https://cloud.digitalocean.com/droplets/new
 2. Under `Choose an image` select the `Marketplace` tab, search for & select `Fediverse`??
 3. Select {min-requirements} & Create Droplet!
 4. Navigate to https://NEW_DROPLET_IP 
-5. Login with default `user` and `password` & complete the guided setup.
+5. Login with default `user` and `password` & complete the setup wizard.
 
 ----
 
