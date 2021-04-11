@@ -68,8 +68,8 @@ Anyone who has ever used applications like cPanel & the included One-Click Apps 
 ----
 
 ## Dev To-Do
-1. Define list/specification of goals/prolems to solve.
-2. Determine the best tech, libraries & decentralized content networks to use.
+1. Define list/specification of goals/problems to solve.
+2. Determine the best tech stack, libraries & decentralized content networks to use.
 3. Create Dockerfile/docker-compose.yml to install/launch networks & services.
     - Setup Docker registry: https://docs.docker.com/registry/deploying/ 
     - Docker Hub account/repo setup: https://docs.docker.com/docker-hub/repos/
@@ -80,6 +80,6 @@ Anyone who has ever used applications like cPanel & the included One-Click Apps 
 6. Create Admin UI used to manage server(s) & content.
 7. Create Setup Wizard 
 8. Create front-end consumption UI(reader) to serve & display creator content.
-9. Create modules/plugins, themes & any other initially required features.
+9. Create modules/plugins, themes, 3rd party integrations & any other initially required features.
 
 
