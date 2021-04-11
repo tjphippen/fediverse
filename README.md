@@ -2,6 +2,7 @@
 
 Read:
 https://sopa.tulane.edu/blog/decentralized-social-networks
+#### And this is great: https://awesomeopensource.com/project/gdamdam/awesome-decentralized-web
 
 ## Description
 
