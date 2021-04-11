@@ -45,12 +45,11 @@ Getting started using the Fediverse is VERY simple & straight forward. Creators 
 Anyone who has ever used applications like cPanel & the included One-Click Apps like WordPress will be comfortable with the process. We will provide easy to follow guides, video tutorials, community support/forum & for those who want more hands on support or managed hosting we may provide those services in the future for a fee. (any/all profits should go into philanthropy & supporting the continued development of this project.
 
 1. Digital Ocean
-    - Marketplace App https://marketplace.digitalocean.com/ | https://marketplace.digitalocean.com/vendors/getting-started-as-a-digitalocean-marketplace-vendor | https://github.com/digitalocean/marketplace-partners | 
-https://docs.digitalocean.com/products/app-platform/how-to/add-deploy-do-button/
+    - Marketplace App https://docs.digitalocean.com/products/app-platform/how-to/create-apps/ 
+    - Easy "Deploy to" Button: https://docs.digitalocean.com/products/app-platform/how-to/add-deploy-do-button/
 2. Linode
     - Marketplace App https://github.com/linode/Marketplace-Apps
 3. Vultr
-    - Marketplace App https://github.com/linode/Marketplace-Apps
     - One-Click App: https://www.vultr.com/features/one-click-apps/
 4. Heroku
     - Container Registry https://devcenter.heroku.com/articles/container-registry-and-runtime
