@@ -9,15 +9,10 @@ The goal of this project is to provide a Dockerized Ubuntu/CentOS image that Cre
 
 All content will be stored/accessed via distributed networks. 
 
-Admin Interface: 
-  - PHP & Vue.js (running on hosted server)
+----
 
-Consumption Interfaces: 
-  - Vue.js/CSS/HTML served from hosted server(creator's domain, theming, extended plugins)
-  - Android/iOS Mobile app(TBD) (@handel for creators, official plugins supported)
-
-
-## Ref
+## Networks
+There are multiple decentralized content delivery networks. The following is a few to look into & that we may or may not end up using. Please give feedback/suggestions if there are alternatives that would better serve the goald of this application. A Node.js/npm package will be created as a wrapper to interact with the various network APIs running on the Creator's instance
 
 Matrix: https://matrix.org/docs/develop | https://github.com/matrix-org/dendrite
 
@@ -27,11 +22,62 @@ Mastdon: https://github.com/tootsuite/mastodon
 
 Peertube: https://github.com/Chocobozzz/PeerTube | https://docs.joinpeertube.org/install-docker
 
+LBRY: https://lbry.com/
 
-## Creator Setup (Digital Ocean) ##
+----
+
+### Admin Interface: 
+  - PHP, Node.js & Vue.js (running on hosted server)
+
+### Consumption Interfaces: 
+  - Vue.js/Node.js self hosted server(s): Use: creator's domain, theming & extended plugins.
+  - Android/iOS Mobile app: w/@handel for channels/users(e.g. https://handcash.io/) Only official theming/plugins supported.
+    - Possible UI Framework: https://ionicframework.com/docs/vue/overview
+
+----
+
+## Install/Setup Options
+Getting started using the Fediverse is VERY simple & straight forward. Creators can use our One-Click/Marketplace app on popular hosts like DigitalOcean, Heroku & Linods to automatically install everything they need. Advanced users may install with Docker (e.g. `docker pull fediverse:10.04`) or simply by pulling this repo & running `docker-compose up -d` 
+
+Anyone who has ever used applications like cPanel & the included One-Click Apps like WordPress will be comfortable with the process. We will provide easy to follow guides, video tutorials, community support/forum & for Creators wanting hands on support or managed services we may provide those services for a fee. (any/all profits will go towards philanthropy & supporting the continued development of this project.
+
+1. Digital Ocean
+    - Marketplace App https://marketplace.digitalocean.com/ | https://marketplace.digitalocean.com/vendors/getting-started-as-a-digitalocean-marketplace-vendor | https://github.com/digitalocean/marketplace-partners | 
+https://docs.digitalocean.com/products/app-platform/how-to/add-deploy-do-button/
+2. Linode
+    - Marketplace App https://github.com/linode/Marketplace-Apps
+3. Vultr
+    - Marketplace App https://github.com/linode/Marketplace-Apps
+    - One-Click App: https://www.vultr.com/features/one-click-apps/
+4. Heroku
+    - Container Registry https://devcenter.heroku.com/articles/container-registry-and-runtime
+5. Custom install
+    - Custom ISO/img
+    - Github repo to pull & run `docker-compose up` to start services.
+
+## Creator Setup (Digital Ocean option #1) 
 
 1. Goto https://cloud.digitalocean.com/droplets/new
 2. Under `Choose an image` select the `Marketplace` tab, search for & select `Fediverse`??
 3. Select {min-requirements} & Create Droplet!
 4. Navigate to https://NEW_DROPLET_IP 
 5. Login with default `user` and `password` & complete the guided setup.
+
+----
+
+## Dev To-Do
+1. Define list/specification of goals/prolems to solve.
+2. Determine the best tech, libraries & decentralized content networks to use.
+3. Create Dockerfile/docker-compose.yml to install/launch networks & services.
+    - Setup Docker registry: https://docs.docker.com/registry/deploying/ 
+    - Docker Hub account/repo setup: https://docs.docker.com/docker-hub/repos/
+    - Become vendor/partner for 1-Click-Apps: https://github.com/digitalocean/marketplace-partners
+    - Create `Deploy to..` button: https://docs.digitalocean.com/products/app-platform/how-to/add-deploy-do-button/
+4. Build a RESTful JSON API (wrapper for all service APIs + additional Fediverse specific methods)
+5. Build packages/plugins for Node.js (Vue store), PHP/composer & others.
+6. Create Admin UI used to manage server(s) & content.
+7. Create Setup Wizard 
+8. Create front-end consumption UI(reader) to serve & display creator content.
+9. Create modules/plugins, themes & any other initially required features.
+
+
