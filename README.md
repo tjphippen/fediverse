@@ -55,8 +55,8 @@ https://docs.digitalocean.com/products/app-platform/how-to/add-deploy-do-button/
 4. Heroku
     - Container Registry https://devcenter.heroku.com/articles/container-registry-and-runtime
 5. Custom install
-    - Custom ISO/img
-    - Github repo to pull & run `docker-compose up` to start services.
+    - Downloadable ISO/img
+    - Github repo to pull/clone & then use `docker-compose up` to start all services.
 
 ## Possible Creator Setup (Digital Ocean option #1) 
 
