@@ -4,6 +4,11 @@ Read:
 https://sopa.tulane.edu/blog/decentralized-social-networks
 #### And this is great: https://awesomeopensource.com/project/gdamdam/awesome-decentralized-web
 
+## Ref
+https://code-ready.github.io/crc/
+https://github.com/tartaria-nova/RSS-3.0
+https://github.com/vector-im
+
 ## Description
 
 The goal of this project is to provide a Dockerized Ubuntu/CentOS image that Creators can easily setup. This will automatically install & connect to multiple distributed content networks listed below, provide an Admin UI/CMS running on port 80(Like Wordpress) & serve a website/portal for public or members only content. The Creator may add plugins/modules for payments or subscriptions, themes, etc. 
