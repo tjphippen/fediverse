@@ -1,15 +1,13 @@
 # fediverse
 
-Read:
-https://sopa.tulane.edu/blog/decentralized-social-networks
-#### And this is great: https://awesomeopensource.com/project/gdamdam/awesome-decentralized-web
 
-## Ref
-https://code-ready.github.io/crc/
+### Ref
 
+Resources: https://awesomeopensource.com/project/gdamdam/awesome-decentralized-web
+Element Repos: https://github.com/vector-im
+
+## RSS 3.0
 https://github.com/tartaria-nova/RSS-3.0
-
-https://github.com/vector-im
 
 ## Description
 
@@ -36,13 +34,19 @@ LBRY: https://lbry.com/
 
 ----
 
-### Admin Interface: 
-  - PHP, Node.js & Vue.js (running on hosted server)
+### Creator Portal
+  - NGINX & PHP-FPM containers running alongside network/service containers on the Creator's instance(s). 
+  - Supports creation & management of cluster/nodes via host APIs &/or https://code-ready.github.io/crc/ 
 
-### Consumption Interfaces: 
-  - Vue.js/Node.js self hosted server(s): Use: creator's domain, theming & extended plugins.
-  - Android/iOS Mobile app: w/@handel for channels/users(e.g. https://handcash.io/) Only official theming/plugins supported.
-    - Possible UI Framework: https://ionicframework.com/docs/vue/overview
+  
+#### Web App
+PWA: https://ionicframework.com/docs/vue/pwa
+
+#### Mobile App
+Ionic Framework: https://ionicframework.com/docs/vue/overview
+
+#### Desktop App
+Electron: https://www.electronjs.org/ (cross-platform desktop apps)
 
 ----
 
@@ -75,7 +79,7 @@ Anyone who has ever used applications like cPanel & the included One-Click Apps 
 ----
 
 ## Dev To-Do
-1. Define list/specification of goals/problems to solve.
+1. ~~Define list/specification of goals/problems to solve.~~ [Fediverse/MetaNet spec sheet](https://docs.google.com/document/d/19svsJhCB9LGgiEq-69DrOMFFDBsNsd812T-nU9VafoU)
 2. Determine the best tech stack, libraries & decentralized content networks to use.
 3. Create Dockerfile/docker-compose.yml to install/launch networks & services.
     - Setup Docker registry: https://docs.docker.com/registry/deploying/ 
