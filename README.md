@@ -1,9 +1,10 @@
-# fediverse
+# Fediverse / MetaNet
 
 
-### Ref
+### Reference
 
 Resources: https://awesomeopensource.com/project/gdamdam/awesome-decentralized-web
+
 Element Repos: https://github.com/vector-im
 
 ## RSS 3.0
